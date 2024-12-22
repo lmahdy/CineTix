@@ -1,0 +1,74 @@
+{
+  "indexes": [
+    {
+      "collectionGroup": "evenement",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "titre",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "duree",
+          "order": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "comments",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "eventref",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "time",
+          "order": "DESCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "evenement",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "Event_saved_by",
+          "arrayConfig": "CONTAINS"
+        },
+        {
+          "fieldPath": "duree",
+          "order": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "planning",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "date",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "type",
+          "order": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "notifications",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "made_to",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "time",
+          "order": "DESCENDING"
+        }
+      ]
+    }
+  ]
+}

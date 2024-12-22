@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "910699088779",
+    "project_id": "cinetix-9921b",
+    "storage_bucket": "cinetix-9921b.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:910699088779:android:acec4110b6b97a828dfd8e",
+        "android_client_info": {
+          "package_name": "com.mycompany.cinetix"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBzmE6bczuvVPSpJhLkmIU21DAWQl_uo0w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
